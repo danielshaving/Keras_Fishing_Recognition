@@ -14,8 +14,12 @@ nbr_validation_samples = 758
 nbr_epochs = 1
 batch_size = 20
 
-train_data_dir = '/Users/Daniel/Documents/Website/GitHub/Machine_Learning/Kaggle_NCFM-master/train_split'
-val_data_dir = '/Users/Daniel/Documents/Website/GitHub/Machine_Learning/Kaggle_NCFM-master/val_split'
+
+
+root_path = '/Users/Daniel/Documents/Website/GitHub/CVs/Keras_Fishing_Recognition'
+
+train_data_dir = os.path.join(root_path, 'train_split')
+val_data_dir = os.path.join(root_path, 'val_split')
 
 FishNames = ['ALB', 'BET', 'DOL', 'LAG', 'NoF', 'OTHER', 'SHARK', 'YFT']
 

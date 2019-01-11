@@ -13,11 +13,11 @@ nbr_augmentation = 5
 
 FishNames = ['ALB', 'BET', 'DOL', 'LAG', 'NoF', 'OTHER', 'SHARK', 'YFT']
 
-#root_path = '/Users/pengpai/Desktop/python/DeepLearning/Kaggle/NCFM'
-root_path = '/data1/home/waynema/popeyepeng/NCFM'
+
+root_path = '/Users/Daniel/Documents/Website/GitHub/CVs/Keras_Fishing_Recognition'
 weights_path = os.path.join(root_path, 'weights.h5')
 
-test_data_dir = os.path.join(root_path, 'data/test_stg1/')
+test_data_dir = os.path.join(root_path, 'test_stg1/')
 
 # test data generator for prediction
 test_datagen = ImageDataGenerator(
